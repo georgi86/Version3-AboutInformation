@@ -42,12 +42,12 @@ namespace AboutInformation
 
             for (int i = 0; i < iArrHardcodedSize; i++)
             {
-                if ((1 == i) || (2 == i) || (5 == i))   
+                if ((1 == i) || (2 == i) || (5 == i))
                     continue;
 
                 if (strReadTextOneArr[i].CompareTo(strReadHarcodedTextOneArr[i]) == 0)
                 {
-                   
+
                     ReportAction.RunPositiveResult(strReadTextOneArr[i]);
                 }
                 else
@@ -56,9 +56,40 @@ namespace AboutInformation
                 }
             }
 
-            
-        }
 
-            
+        }
     }
+
+    class UtilityCopyRight
+    {
+        public static void CopyRightText(string Actual, string Hardcoded)
+        {
+            string strTextOne = Actual;
+            string[] strReadTextOneArr = Regex.Split(strTextOne, "\n");
+
+
+            string strHardcodedTextOne = Hardcoded;
+            string[] strReadHarcodedTextOneArr = Regex.Split(strHardcodedTextOne, "\n");
+
+            int iArrHardcodedSize = strReadHarcodedTextOneArr.Length;
+
+            for (int i = 0; i < iArrHardcodedSize; i++)
+            {
+
+                if (strReadTextOneArr[i].CompareTo(strReadHarcodedTextOneArr[i]) == 0)
+                {
+
+                    ReportAction.RunPositiveResult(strReadTextOneArr[i]);
+                }
+                else
+                {
+                    ReportAction.RunNegativeResult(strReadTextOneArr[i], strReadHarcodedTextOneArr[i]);
+                }
+            }
+
+
+        }
+    }    
+
 }
+

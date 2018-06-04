@@ -127,26 +127,39 @@ namespace AboutInformation
             string strHardcodedCheckOne = "SNAP-X For Windows\nVersion 2.09.14 Apr 30 2018 \nDatabase Version: 101\nSerial Number #SFD2001052\nCPU: 7.22; TruLight: Firmware Revision A\r\n\nCSB: Yes (newer)\nVideo board: Pylon Camera\nSentinel ID: 9096EE9F-6BF57B2D-0F2C1BED-2296D25F";
 
             UtilityRun.ComparingText(strCheckOne, strHardcodedCheckOne);
+            Delay.Milliseconds(200);
             
-
-
-
 
             //repo.AboutSNAPX.TextTwo.TextValue
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AboutSNAPX.TextTwo' at Center.", repo.AboutSNAPX.TextTwoInfo, new RecordItemIndex(7));
             repo.AboutSNAPX.TextTwo.Click();
+
+            string strCheckTwo = repo.AboutSNAPX.TextTwo.TextValue;
+            string strHardcodedCheckTwo = "For license renewal:";
+
+            UtilityRun.ComparingText(strCheckTwo, strHardcodedCheckTwo);
             Delay.Milliseconds(200);
 
 
             //repo.AboutSNAPX.TextTwoo.TextValue
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AboutSNAPX.TextTwoo' at Center.", repo.AboutSNAPX.TextTwooInfo, new RecordItemIndex(8));
             repo.AboutSNAPX.TextTwoo.MoveTo();
+
+            string strCheckSecondTwo = repo.AboutSNAPX.TextTwoo.TextValue;
+            string strCheckHardcodedSecondTwo = "www.qvii.com/renew";
+
+            UtilityRun.ComparingText(strCheckSecondTwo, strCheckHardcodedSecondTwo);
             Delay.Milliseconds(200);
 
 
             //repo.AboutSNAPX.TextThree.TextValue
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AboutSNAPX.TextThree' at Center.", repo.AboutSNAPX.TextThreeInfo, new RecordItemIndex(9));
             repo.AboutSNAPX.TextThree.Click();
+
+            string strCheckThree = repo.AboutSNAPX.TextThree.TextValue;
+            string strHardcodedCheckThree = "Copyright © 2001 - 2018 by Quality Vision International, Inc.\nAll Rights Reserved.";
+
+            UtilityCopyRight.CopyRightText(strCheckThree, strHardcodedCheckThree);
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(10));
