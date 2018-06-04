@@ -124,7 +124,7 @@ namespace AboutInformation
             Delay.Milliseconds(200);
 
             string strCheckOne = repo.AboutSNAPX.TextOne.TextValue;
-            string strHardcodedCheckOne = "SNAP-X For Windows\nVersion 2.09.14 Apr 30 2018 \nDatabase Version: 101\nSerial Number #SFD2001052\nCPU: 7.22; TruLight: Firmware Revision A\r\n\nCSB: Yes (newer)\nVideo board: Pylon Camera\nSentinel ID: 99096EE9F-6BF57B2D-0F2C1BED-2296D25F";
+            string strHardcodedCheckOne = "SNAP-X For Windows\nVersion 2.09.14 Apr 30 2018 \nDatabase Version: 101\nSerial Number #SFD2001052\nCPU: 7.22; TruLight: Firmware Revision A\r\n\nCSB: Yes (newer)\nVideo board: Pylon Camera\nSentinel ID: 9096EE9F-6BF57B2D-0F2C1BED-2296D25F";
 
             UtilityRun.ComparingText(strCheckOne, strHardcodedCheckOne);
             

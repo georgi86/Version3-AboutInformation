@@ -19,10 +19,11 @@ namespace AboutInformation
         }
 
 
-        public static void RunNegativeResult(string TextOne)
+        public static void RunNegativeResult(string TextOne, string TextTwo)
         {
             string ActualText = "Actual text is: " + TextOne;
             Ranorex.Report.Error("STOP THE VERSION: ", ActualText);
+            Ranorex.Report.Error("Expected text is: " + TextTwo);
         }
     }
 
@@ -51,7 +52,7 @@ namespace AboutInformation
                 }
                 else
                 {
-                    ReportAction.RunNegativeResult(strReadTextOneArr[i]);
+                    ReportAction.RunNegativeResult(strReadTextOneArr[i], strReadHarcodedTextOneArr[i]);
                 }
             }
 
