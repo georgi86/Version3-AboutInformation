@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8F19D129-3B96-4489-8359-A9D468C23298}"
+	ProjectSection(SolutionItems) = preProject
+		Ranorex = Ranorex
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutInformation", "AboutInformation\AboutInformation.csproj", "{2E7E60C4-7AAF-40BE-BB56-47901F9D8162}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E7E60C4-7AAF-40BE-BB56-47901F9D8162}.Debug|x86.ActiveCfg = Debug|x86
+		{2E7E60C4-7AAF-40BE-BB56-47901F9D8162}.Debug|x86.Build.0 = Debug|x86
+		{2E7E60C4-7AAF-40BE-BB56-47901F9D8162}.Release|x86.ActiveCfg = Release|x86
+		{2E7E60C4-7AAF-40BE-BB56-47901F9D8162}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B487EC63-2ED6-427A-9983-0E0FDB4993B2}
+	EndGlobalSection
+EndGlobal
