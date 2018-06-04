@@ -1,10 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-# Ranorex Studio 7.0
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8F19D129-3B96-4489-8359-A9D468C23298}"
-	ProjectSection(SolutionItems) = postProject
-		Ranorex = .\Ranorex.rxsettings
+	ProjectSection(SolutionItems) = preProject
+		Ranorex = Ranorex
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutInformation", "AboutInformation\AboutInformation.csproj", "{2E7E60C4-7AAF-40BE-BB56-47901F9D8162}"
@@ -15,9 +16,15 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2E7E60C4-7AAF-40BE-BB56-47901F9D8162}.Debug|x86.Build.0 = Debug|x86
 		{2E7E60C4-7AAF-40BE-BB56-47901F9D8162}.Debug|x86.ActiveCfg = Debug|x86
-		{2E7E60C4-7AAF-40BE-BB56-47901F9D8162}.Release|x86.Build.0 = Release|x86
+		{2E7E60C4-7AAF-40BE-BB56-47901F9D8162}.Debug|x86.Build.0 = Debug|x86
 		{2E7E60C4-7AAF-40BE-BB56-47901F9D8162}.Release|x86.ActiveCfg = Release|x86
+		{2E7E60C4-7AAF-40BE-BB56-47901F9D8162}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {354268DC-D2A7-4177-8E73-51C4E80B1C1A}
 	EndGlobalSection
 EndGlobal

@@ -123,6 +123,6 @@ D:\Joro\GIT_Automations\VERSION 3\AutomationAbout\AboutInformation\bin\Debug\Ran
 D:\Joro\GIT_Automations\VERSION 3\AutomationAbout\AboutInformation\bin\Debug\Ranorex.Plugin.Win32.xml
 D:\Joro\GIT_Automations\VERSION 3\AutomationAbout\AboutInformation\bin\Debug\Ranorex.Plugin.WinForms.xml
 D:\Joro\GIT_Automations\VERSION 3\AutomationAbout\AboutInformation\bin\Debug\Ranorex.Plugin.Wpf.xml
-D:\Joro\GIT_Automations\VERSION 3\AutomationAbout\AboutInformation\obj\x86\Debug\AboutInformation.csprojResolveAssemblyReference.cache
 D:\Joro\GIT_Automations\VERSION 3\AutomationAbout\AboutInformation\obj\x86\Debug\AboutInformation.csproj.CoreCompileInputs.cache
 D:\Joro\GIT_Automations\VERSION 3\AutomationAbout\AboutInformation\obj\x86\Debug\AboutInformation.csproj.CopyComplete
+D:\Joro\GIT_Automations\VERSION 3\AutomationAbout\AboutInformation\obj\x86\Debug\AboutInformation.csprojAssemblyReference.cache

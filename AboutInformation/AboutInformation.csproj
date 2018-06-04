@@ -91,6 +91,7 @@
       <UserCode>true</UserCode>
       <id>7c24f656-9872-4df5-88ae-72701e48e557</id>
     </Compile>
+    <Compile Include="UtilityFunctions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AboutInformationRepository.rximg">
