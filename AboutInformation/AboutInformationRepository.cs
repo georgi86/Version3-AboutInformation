@@ -104,7 +104,7 @@ namespace AboutInformation
             /// Creates a new SnapXUntitled  folder.
             /// </summary>
             public SnapXUntitledAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SnapXUntitled", "/form[@title='Snap-X - [Untitled]']", parentFolder, 30000, null, true, "1fd00114-f4e7-43f3-9400-3162767513b6", "")
+                    base("SNAPXUntitled", "/form[@title='SNAP-X - [Untitled]']", parentFolder, 30000, null, true, "1fd00114-f4e7-43f3-9400-3162767513b6", "")
             {
                 _titlebarInfo = new RepoItemInfo(this, "TitleBar", "element[@controlid='94']", 30000, null, "8ba74a64-3384-48ed-9e01-f0765c7d519e");
                 _measuretextInfo = new RepoItemInfo(this, "MeasureText", "container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']", 30000, null, "72a11f55-a704-4c3e-953e-363400002587");
